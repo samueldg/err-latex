@@ -18,7 +18,7 @@ class LatexBot(BotPlugin):
 
         if not args:
             # Get random definitions if no term is provided
-            self.send('You need to provide a LaTeX expression to convert!', in_reply_to=msg)
+            return 'You need to provide a LaTeX expression to convert!'
 
         else:
             expression = ' '.join(args)
