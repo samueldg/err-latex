@@ -1,0 +1,9 @@
+[Core]
+Name = Latex
+Module = latex
+
+[Documentation]
+Description = Bot that converts LaTeX expressions to images.
+
+[Python]
+Version = 3
