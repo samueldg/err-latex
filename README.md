@@ -8,7 +8,7 @@ The bot is powered by the [CodeCogs](http://latex.codecogs.com/) service.
 
 ## Commands
 
-- `!latex {expression}` — Render the expression in SVG and post the image back.
+- `!latex {expression}` — Render the expression in PNG and post the image back.
 
 ## Installation
 

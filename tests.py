@@ -19,4 +19,4 @@ def test_with_latex_expression(testbot):
     expression = '$E=mc^2$'
     testbot.push_message('!latex ' + expression)
     image_url = testbot.pop_message()
-    assert image_url == 'http://latex.codecogs.com/svg.latex?%24%20E%20%3D%20m%20c%20%5E%202%20%24'
+    assert image_url == 'http://latex.codecogs.com/png.latex?%24E%3Dmc%5E2%24'
