@@ -4,6 +4,10 @@
 
 **Err-LaTeX** is a bot that converts LaTeX expressions to images.
 
+Example:
+
+![Example usage](https://raw.github.com/samueldg/err-latex/master/images/example-usage-minified.png)
+
 The bot is powered by the [CodeCogs](http://latex.codecogs.com/) service.
 
 ## Commands
