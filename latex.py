@@ -9,7 +9,7 @@ from errbot import BotPlugin
 
 class LatexBot(BotPlugin):
 
-    api_url_template = 'http://latex.codecogs.com/png.latex?{query}'
+    api_url_template = 'https://latex.codecogs.com/png.latex?{query}'
 
     @botcmd
     def latex(self, msg, args):
