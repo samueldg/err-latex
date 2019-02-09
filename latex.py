@@ -23,6 +23,7 @@ class LatexBot(BotPlugin):
         else:
             image_url = self.get_image_url(args)
             self.send_card(
+                body='There you go:',
                 image=image_url,
                 in_reply_to=msg,
             )
